@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: #c4c4c4;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6A9C89;
+    color: black;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    border: 2px solid #6A9C89;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px #16423C;
+}
+
+.input_Container{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.input_Container input{
+    border: none;
+    outline:  none;
+    padding: 12px;
+    margin-block: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input_Container input[type="text"]{
+    width:70%;
+    
+}
+
+.input_Container input[type="button"]{
+    background-color: #16423C;
+    color: white;
+    font-weight: 700;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+
+.input_Container input[type="button"]:hover{
+    background-color: #C4DAD2;
+    color: black;
+}
+
+
+ul{
+    width: 100%;
+    max-width: 450px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+    border: 0.125px solid #6A9C89;
+    border-radius: 50px;
+    margin-block-end: 12px;
+    padding: 6px 12px;
+    background-color: white;
+    box-shadow: 1px,1px,20px #16423C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.5s;
+}
+ul li:hover{
+    background-color: #cbcaca;
+}
+
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.deleteBtn{
+    color: rgb(255, 255, 255);
+    background-color: #16423C;
+    border: 0px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px #16423C;
+}
+
+.editBtn{
+    color: white;
+    background-color: #16423C;
+    border: white;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px #16423C;
+}
